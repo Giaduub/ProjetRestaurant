@@ -1,0 +1,68 @@
+@font-face{
+    font-family:"BebasNeue";
+    src: url("police/BebasNeue-Regular.otf")
+}
+
+body{
+    background-color: rgb(43, 43, 43);
+}
+
+.Navigation{
+   font-family: "BebasNeue";
+}
+
+.nav-link{
+    color: white;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.NosBurgers{
+    font-family: "BebasNeue";
+}
+
+.titre{
+   color: white;
+   font-size: 40px;
+   margin-bottom: 0;
+   margin-top: 20px;
+   text-align: center;
+}
+
+.Texte{
+    color: orange;
+    font-size: 15px;
+}
+
+.Prix{
+    color: rgb(203, 203, 203);
+    font-size: 40px;
+}
+
+
+.Ob{
+    color: orange;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Ob::before{
+    content:"--------------------------------";
+    margin-right: 20px;
+}
+
+.Ob::after{
+    content:"--------------------------------";
+    margin-left: 20px;
+}
+
+
+
+
+
