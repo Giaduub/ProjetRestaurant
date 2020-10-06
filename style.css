@@ -3,6 +3,17 @@
     src: url("police/BebasNeue-Regular.otf")
 }
 
+@font-face{
+    font-family: "Shadow";
+    src: url("police/ShadowsIntoLight-Regular.ttf")
+}
+
+@font-face{
+    font-family: "Banger";
+    src: url("police/Bangers-Regular.ttf");
+}
+
+
 body{
     background-color: rgb(43, 43, 43);
 }
@@ -20,7 +31,7 @@ body{
 
 a:hover{
     color: orange;
-    text-decoration: underline;
+    text-decoration: underline!important ;
 }
 
 .NosBurgers{
@@ -45,6 +56,9 @@ a:hover{
     font-size: 40px;
 }
 
+/* Nos Burgers*/ 
+
+@media (min-width: 1024px) {
 
 .Ob{
     color: orange;
@@ -53,16 +67,229 @@ a:hover{
 }
 
 .Ob::before{
-    content:"--------------------------------";
+    content:"";
     margin-right: 20px;
+    width:200px;
+    border-bottom: 2px solid #ff9900;
+    display:inline-block;
+    margin-bottom: 5px;
 }
 
 .Ob::after{
-    content:"--------------------------------";
+    content:"";
     margin-left: 20px;
+    width: 200px;
+    border-bottom: 2px solid #ff9900;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+}
+
+@media (min-width:720px){
+    .Ob{
+        color: orange;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .Ob::before{
+        content:"";
+        margin-right: 20px;
+        width:200px;
+        border-bottom: 2px solid #ff9900;
+        display:inline-block;
+        margin-bottom: 5px;
+    }
+    
+    .Ob::after{
+        content:"";
+        margin-left: 20px;
+        width: 200px;
+        border-bottom: 2px solid #ff9900;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width:719px){
+    .Ob{
+        color: orange;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .Ob::before{
+        content:"";
+        margin-right: 20px;
+        width:100px;
+        border-bottom: 2px solid #ff9900;
+        display:inline-block;
+        margin-bottom: 5px;
+    }
+    
+    .Ob::after{
+        content:"";
+        margin-left: 20px;
+        width: 100px;
+        border-bottom: 2px solid #ff9900;
+        display: inline-block;
+        margin-bottom: 5px;
+}
+
 }
 
 
 
 
 
+
+/*Bouton pdf */
+
+.btn2{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: rgb(43, 43, 43);
+    color: white;
+    text-align: center;
+    background-color:orange;
+}
+
+.btn2 > a{
+    color: white !important;
+}
+
+/* Bouton + de Burgers*/
+
+.btn1 > a{
+    color: white !important;
+}
+
+.btn1{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: rgb(43, 43, 43);
+    text-align: center;
+    background-color: orange
+}
+
+/* Bar menu */
+
+.Bar2{
+    color:rgb(25, 91, 90);
+    font-family: "BebasNeue";
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.Bar2::before{ content:"";
+    margin-right: 20px;
+    width: 200px;
+    border-bottom: 2px solid rgb(25, 91, 90);
+    display: inline-block;
+    margin-bottom: 5px;
+
+}
+
+.Bar2::after{ 
+    content:"";
+    margin-left: 20px;
+    width: 200px;
+    border-bottom: 2px solid rgb(25, 91, 90);
+    display: inline-block;
+    margin-bottom: 5px;
+
+}
+
+/*Super */
+
+.Super {
+    color: white;
+    font-family: "Shadow";
+    font-size: 25px;
+}
+
+#Square{
+    background-color: rgb(25, 91, 90);
+}
+
+.btn3{
+    float: right;
+    background-color: rgb(25, 91, 90);
+    border-style: dashed;
+    border-color: white;
+
+}
+
+.btn3 > a{
+    color: white;
+}
+
+/* Coffee */
+
+.coffee{
+    color: rgb(119, 31, 47);
+    text-align: center;
+    font-family: "BebasNeue";
+}
+
+.coffee::before{ content:"";
+    margin-right: 20px;
+    width: 200px;
+    border-bottom: 2px solid rgb(119, 31, 47);
+    display: inline-block;
+    margin-bottom: 5px;
+
+}
+
+.coffee::after{
+    content:"";
+    margin-left: 20px;
+    width: 200px;
+    border-bottom: 2px solid rgb(119, 31, 47);
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* Localisation */
+
+#Green{
+    background-color: rgb(186, 147, 56);
+}
+
+.Vert{
+    font-family: "BebasNeue";
+    color: rgb(186, 147, 56);
+    text-align: center;
+}
+
+.Vert::before{ content:"";
+    margin-right: 20px;
+    width: 200px;
+    border-bottom: 2px solid rgb(186, 147, 56);
+    display: inline-block;
+    margin-bottom: 5px;
+
+}
+
+.Vert::after{ 
+    content:"";
+    margin-left: 20px;
+    width: 200px;
+    border-bottom: 2px solid rgb(186, 147, 56);
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.Ouvert{
+    font-family: "Banger";
+    color: rgb(43, 43, 43);
+}
+
+/* Footer */
+
+
+hr{
+    background-color: grey;
+}
