@@ -276,6 +276,8 @@ a:hover{
     background-color: rgb(25, 91, 90);
     border-style: dashed;
     border-color: white;
+    bottom: 0 ;
+    right: 0;
 
 }
 
@@ -469,4 +471,15 @@ a:hover{
 
 hr{
     background-color: grey;
+}
+
+.bouton{
+    border-style: dashed;
+    background-color: rgb(25, 91, 90);
+    right: 200px;
+}
+
+
+.Formule{
+    background-color: red;
 }
