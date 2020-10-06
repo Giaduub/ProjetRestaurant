@@ -175,32 +175,89 @@ a:hover{
 
 /* Bar menu */
 
-.Bar2{
-    color:rgb(25, 91, 90);
-    font-family: "BebasNeue";
-    text-align: center;
-    margin-top: 20px;
-    padding-top: 20px;
-}
+@media (min-width: 1024px) {
 
-.Bar2::before{ content:"";
-    margin-right: 20px;
-    width: 200px;
-    border-bottom: 2px solid rgb(25, 91, 90);
-    display: inline-block;
-    margin-bottom: 5px;
-
-}
-
-.Bar2::after{ 
-    content:"";
-    margin-left: 20px;
-    width: 200px;
-    border-bottom: 2px solid rgb(25, 91, 90);
-    display: inline-block;
-    margin-bottom: 5px;
-
-}
+    .Bar2{
+        color: rgb(25, 91, 90);
+        text-align: center;
+        margin-top: 10px;
+        font-family: "BebasNeue";
+    }
+    
+    .Bar2::before{
+        content:"";
+        margin-right: 20px;
+        width:200px;
+        border-bottom: 2px solid rgb(25, 91, 90);
+        display:inline-block;
+        margin-bottom: 5px;
+    }
+    
+    .Bar2::after{
+        content:"";
+        margin-left: 20px;
+        width: 200px;
+        border-bottom: 2px solid rgb(25, 91, 90);
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    }
+    
+    
+    @media (min-width:720px){
+        .Bar2{
+            color: rgb(25, 91, 90);
+            text-align: center;
+            margin-top: 10px;
+            font-family: "BebasNeue";
+        }
+        
+        .Bar2::before{
+            content:"";
+            margin-right: 20px;
+            width:200px;
+            border-bottom: 2px solid rgb(25, 91, 90);
+            display:inline-block;
+            margin-bottom: 5px;
+        }
+        
+        .Bar2::after{
+            content:"";
+            margin-left: 20px;
+            width: 200px;
+            border-bottom: 2px solid rgb(25, 91, 90);
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+    }
+    
+    @media (max-width:719px){
+        .Bar2{
+            color: rgb(25, 91, 90);
+            text-align: center;
+            margin-top: 10px;
+            font-family: "BebasNeue";
+        }
+        
+        .Bar2::before{
+            content:"";
+            margin-right: 20px;
+            width:100px;
+            border-bottom: 2px solid rgb(25, 91, 90);
+            display:inline-block;
+            margin-bottom: 5px;
+        }
+        
+        .Bar2::after{
+            content:"";
+            margin-left: 20px;
+            width: 100px;
+            border-bottom: 2px solid rgb(25, 91, 90);
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+    
+    }
 
 /*Super */
 
@@ -228,29 +285,89 @@ a:hover{
 
 /* Coffee */
 
-.coffee{
-    color: rgb(119, 31, 47);
-    text-align: center;
-    font-family: "BebasNeue";
-}
+@media (min-width: 1024px) {
 
-.coffee::before{ content:"";
-    margin-right: 20px;
-    width: 200px;
-    border-bottom: 2px solid rgb(119, 31, 47);
-    display: inline-block;
-    margin-bottom: 5px;
-
-}
-
-.coffee::after{
-    content:"";
-    margin-left: 20px;
-    width: 200px;
-    border-bottom: 2px solid rgb(119, 31, 47);
-    display: inline-block;
-    margin-bottom: 5px;
-}
+    .coffee{
+        color: rgb(119, 31, 47);
+        text-align: center;
+        margin-top: 10px;
+        font-family: "BebasNeue";
+    }
+    
+    .coffee::before{
+        content:"";
+        margin-right: 20px;
+        width:200px;
+        border-bottom: 2px solid rgb(119, 31, 47);
+        display:inline-block;
+        margin-bottom: 5px;
+    }
+    
+    .coffee::after{
+        content:"";
+        margin-left: 20px;
+        width: 200px;
+        border-bottom: 2px solid rgb(119, 31, 47);
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    }
+    
+    
+    @media (min-width:720px){
+        .coffee{
+            color: rgb(119, 31, 47);
+            text-align: center;
+            margin-top: 10px;
+            font-family: "BebasNeue";
+        }
+        
+        .coffee::before{
+            content:"";
+            margin-right: 20px;
+            width:200px;
+            border-bottom: 2px solid rgb(119, 31, 47);
+            display:inline-block;
+            margin-bottom: 5px;
+        }
+        
+        .coffee::after{
+            content:"";
+            margin-left: 20px;
+            width: 200px;
+            border-bottom: 2px solid rgb(119, 31, 47);
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+    }
+    
+    @media (max-width:719px){
+        .coffee{
+            color: rgb(119, 31, 47);
+            text-align: center;
+            margin-top: 10px;
+            font-family: "BebasNeue";
+        }
+        
+        .coffee::before{
+            content:"";
+            margin-right: 20px;
+            width:100px;
+            border-bottom: 2px solid rgb(119, 31, 47);
+            display:inline-block;
+            margin-bottom: 5px;
+        }
+        
+        .coffee::after{
+            content:"";
+            margin-left: 20px;
+            width: 100px;
+            border-bottom: 2px solid rgb(119, 31, 47);
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+    
+    }
 
 /* Localisation */
 
@@ -258,31 +375,91 @@ a:hover{
     background-color: rgb(186, 147, 56);
 }
 
-.Vert{
-    font-family: "BebasNeue";
-    color: rgb(186, 147, 56);
-    text-align: center;
-}
+@media (min-width: 1024px) {
 
-.Vert::before{ content:"";
-    margin-right: 20px;
-    width: 200px;
-    border-bottom: 2px solid rgb(186, 147, 56);
-    display: inline-block;
-    margin-bottom: 5px;
+    .Vert{
+        color: rgb(186, 147, 56);
+        text-align: center;
+        margin-top: 10px;
+        font-family: "BebasNeue";
+    }
+    
+    .Vert::before{
+        content:"";
+        margin-right: 20px;
+        width:200px;
+        border-bottom: 2px solid rgb(186, 147, 56);
+        display:inline-block;
+        margin-bottom: 5px;
+    }
+    
+    .Vert::after{
+        content:"";
+        margin-left: 20px;
+        width: 200px;
+        border-bottom: 2px solid rgb(186, 147, 56);
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    }
+    
+    
+    @media (min-width:720px){
+        .Vert{
+            color: rgb(186, 147, 56);
+            text-align: center;
+            margin-top: 10px;
+            font-family: "BebasNeue";
+        }
+        
+        .Vert::before{
+            content:"";
+            margin-right: 20px;
+            width:200px;
+            border-bottom: 2px solid rgb(186, 147, 56);
+            display:inline-block;
+            margin-bottom: 5px;
+        }
+        
+        .Vert::after{
+            content:"";
+            margin-left: 20px;
+            width: 200px;
+            border-bottom: 2px solid rgb(186, 147, 56);
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+    }
+    
+    @media (max-width:719px){
+        .Vert{
+            color: rgb(186, 147, 56);
+            text-align: center;
+            margin-top: 10px;
+            font-family: "BebasNeue";
+        }
+        
+        .Vert::before{
+            content:"";
+            margin-right: 20px;
+            width:100px;
+            border-bottom: 2px solid rgb(186, 147, 56);
+            display:inline-block;
+            margin-bottom: 5px;
+        }
+        
+        .Vert::after{
+            content:"";
+            margin-left: 20px;
+            width: 100px;
+            border-bottom: 2px solid rgb(186, 147, 56);
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+    
+    }
 
-}
-
-.Vert::after{ 
-    content:"";
-    margin-left: 20px;
-    width: 200px;
-    border-bottom: 2px solid rgb(186, 147, 56);
-    display: inline-block;
-    margin-bottom: 5px;
-}
-
-.Ouvert{
+.TV{
     font-family: "Banger";
     color: rgb(43, 43, 43);
 }
