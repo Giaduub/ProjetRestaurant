@@ -23,14 +23,12 @@ body{
 }
 
 .nav-link{
-    color: white;
-    margin-top: 30px;
-    margin-right: 80px;
+       color: white !important;
 }
 
 
 a:hover{
-    color: orange;
+    color: orange !important;
     text-decoration: underline!important ;
 }
 
@@ -480,6 +478,7 @@ hr{
     bottom:0;
     right: 50;
     position: fixed;
+    opacity: 80%;
 }
 
 .bouton > a{
@@ -489,4 +488,13 @@ hr{
 
 .email{
     color: white !important;
+}
+
+.Or{
+    background-color: white;
+    border-radius: 100%;
+}
+
+.navbar-toggler-icon{
+    color: orange!important;
 }
