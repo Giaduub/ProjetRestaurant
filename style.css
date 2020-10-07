@@ -485,6 +485,12 @@ hr{
     color: white !important;
 }
 
+footer {
+    color: white;
+    font-family: "Bebas Neue";
+}
+
+/*Local*/
 
 .email{
     color: white !important;
@@ -498,3 +504,45 @@ hr{
 .navbar-toggler-icon{
     color: orange!important;
 }
+
+
+/*Animation*/
+
+.NosBurgers {
+    animation-duration: 4s;
+    animation-name: slidein;
+    
+  }
+  
+  @keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 100%;
+      }
+      75% {
+        font-size: 100%;
+        margin-left: 25%;
+        width: 150%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+
+
+    /* Image café cercle */
+
+    .cercle{
+        z-index: 30;
+        background-color: red;
+        border-radius: 100%;
+        border: 5px;
+        opacity: 100%;
+
+    }
+
+    .kk{
+        z-index: 0;
+    }
