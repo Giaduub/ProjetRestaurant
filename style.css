@@ -477,9 +477,16 @@ hr{
     border-style: dashed;
     background-color: rgb(25, 91, 90);
     right: 200px;
+    bottom:0;
+    right: 50;
+    position: fixed;
+}
+
+.bouton > a{
+    color: white !important;
 }
 
 
-.Formule{
-    background-color: red;
+.email{
+    color: white !important;
 }
