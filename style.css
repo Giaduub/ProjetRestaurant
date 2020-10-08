@@ -298,7 +298,7 @@ footer {
 
 .cercle {
     z-index: 30;
-    background-color: red;
+    background-color: rgb(119, 31, 47);
     border-radius: 100%;
     border: 5px;
     opacity: 100%;
@@ -312,10 +312,9 @@ footer {
 
 .cercle2{
     z-index: 30;
-    background-color: red;
+    background-color: rgb(119, 31, 47);
     border: 2px solid #ffffff;
     border-radius: 100%;
-    border: 5px;
     opacity: 100%;
     width:38vw!important;
     max-width:340px;
@@ -334,7 +333,7 @@ footer {
 /* MediaQueries*/
 
 
-@media (max-width:719px) {
+@media (max-width:720px) {
 
     .Ob::before {
         width: 100px;
@@ -367,4 +366,13 @@ footer {
         width: 100px;
     }
 
+}
+
+@media (max-width:986px) {
+    div#navbarNav.show {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        }
 }
