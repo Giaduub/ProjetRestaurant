@@ -310,6 +310,24 @@ footer {
 
 }
 
+.cercle2{
+    z-index: 30;
+    background-color: red;
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    border: 5px;
+    opacity: 100%;
+    width:38vw!important;
+    max-width:340px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.cercle2:before{
+    padding-top:100%; content:"";
+}
+
 .cercle:before{
     padding-top:100%; content:"";
 }
