@@ -171,19 +171,6 @@ a:hover {
     font-family: "BebasNeue";
 }
 
-.t1{
-    color: white;
-    font-family: "Bebas Neue";
-    font-size: 30px;
-    margin-bottom: 0;
-}
-
-.t2{
-    color: white;
-    font-family: "Bebas Neue";
-    margin-bottom: 0;
-    font-size: 60px;
-}
 
 .coffee::before {
     content: "";
