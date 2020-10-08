@@ -15,7 +15,7 @@
 <body>
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light Navigation justify-content-end">
+    <nav class="navbar navbar-expand-lg navbar-light Navigation justify-content-end ">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,26 +23,26 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav d-flex align-items-center justify-content-between w-100">
                 <li class="nav-link">
-                    <a class="nav-link" href="#">Home </a>
+                    <a class="nav-link" href="#Home">Home </a>
                 </li>
                 <li class="nav-link">
-                    <a class="nav-link" href="#">Nos Burgers</a>
+                    <a class="nav-link" href="#Burger">Nos Burgers</a>
                 </li>
                 <li class="nav-link ">
-                    <a class="nav-link" href="#">Bar</a>
+                    <a class="nav-link" href="#Bar">Bar</a>
                 </li>
             </ul>
             <img src="Img/logo.jpg" style="max-width: 100px; max-height: 100px;">
 
             <ul class="navbar-nav d-flex align-items-center justify-content-between w-100">
                 <li class="nav-link">
-                    <a class="nav-link" href="#">Café</a>
+                    <a class="nav-link" href="#cafe">Café</a>
                 </li>
                 <li class="nav-link">
-                    <a class="nav-link" href="#">Localisation</a>
+                    <a class="nav-link" href="#Localisation">Localisation</a>
                 </li>
                 <li class="nav-link">
-                    <a class="nav-link" href="#">Détails</a>
+                    <a class="nav-link" href="#Detals">Détails</a>
                 </li>
             </ul>
         </div>
@@ -50,7 +50,7 @@
 
     <!--Carousel-->
 
-    <section class="Lecarousel">
+    <section id="Home" class="Lecarousel">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="height: 600px;">
             <div class="col-12">
                 <div class="carousel-inner">
@@ -81,12 +81,12 @@
 
     <!--Nos Burgers-->
 
-    <section class="NosBurgers">
+    <section id="Burger" class="NosBurgers Anim">
 
         <h1 class="Ob">Nos Burgers</h1>
 
 
-        <div class="container mt-4">
+        <div class="container mt-4 ">
             <div class="row justify-content-center ">
                 <div class="col-12 col-md-3 col-xl-3 d-flex justify-content-center">
                     <img src="Img/beef-burgundy-burgers-102328849-removebg-preview.png" width="200px" height="200px">
@@ -122,7 +122,7 @@
                 </div>
 
 
-                <div class="container mt-4">
+                <div class="container mt-4 ">
                     <div class="row justify-content-center ">
                         <div class="col-12 col-md-3 col-xl-3  d-flex justify-content-center ">
                             <img src="Img/le-burger-raclette-8-1200x900-removebg-preview (1).png" width="200px"
@@ -233,7 +233,7 @@
 
     <!--Bar-->
 
-    <section class="Bar">
+    <section id="Bar" class="Bar">
         <h1 class="Bar2">Bar</h1>
 
         <div class="container-fluid">
@@ -260,7 +260,7 @@
                     <p class="Super">“La carte des cocktails est en permanence renouvelée et les (bonnes) surprises sont
                         toujours au rendez-vous à Lons-le-Saunier, dans le vere comme dans la salle une valeur sûre"</p>
                     <div class="row d-flex justify-content-end  align-items-end "><button
-                            class="btn3 position-absolute"><a href="#" download="">Téléchargez la carte</button></a>
+                            class="btn3 position-absolute"><a href="Img/carte_bar.pdf" download="">Téléchargez la carte</button></a>
                     </div>
                 </div>
             </div>
@@ -269,20 +269,22 @@
 
     <!--Café-->
 
-    <section class="Matin">
+    <section id="cafe" class="Matin">
         <h1 class="coffee mt-4">Café</h1>
         <div class="container">
             <div class="row">
                 <div class="col-12 position-relative">
                    
-                        <p class="kk text-center"><img class=" img-fluid" src="Img/petit-déjeuner.jpg"></p>
+                        <p class="kk text-center "><img class=" img-fluid" src="Img/petit-déjeuner.jpg"></p>
                         <div class="cercle d-flex w-100 position-absolute">
                             <div class="cercle2 d-flex position-absolute ">
-                                <p class="text-uppercase t1">Boisson chaude + Viennoiserie </p>
-                                <p class="text-uppercase t2">2€</p>
-
-                                <p class="text-uppercase t1">Boisson ou Viennoiserie</p>
-                                <p class="text-uppercase t2">1€</p>
+                                <div class="deueu text-center"><p class="text-uppercase ">Boisson chaude + Viennoiserie </p>
+                                <p class="text-uppercase soi">2€</p></div>
+                                
+                                <div class=" row uneu text-center "><p class="text-uppercase soi text-center">1€</p>
+                                <p class="text-uppercase ">Boisson ou Viennoiserie</p></div>
+                                
+                               
                                
                                 
 
@@ -296,7 +298,7 @@
 
     <!--Localisation-->
 
-    <section class="Localisation">
+    <section id="Localisation" class="Localisation">
         <h1 class="Vert mt-4">Localisation</h1>
         <div class="container-fluid">
             <div class="row">
@@ -360,12 +362,11 @@
                 </div>
     </section>
 
-
     <hr>
 
     <!--Footer-->
 
-    <footer>
+    <footer id="Detals">
         <div class="container">
             <div class="row d-flex align-items-center ">
                 <div class="col-12 col-md-4 col-xl-4 d-flex justify-content-center   ">
@@ -376,7 +377,7 @@
                     <p><img src="Img/logo.jpg" height="100px" width="100px"></p>
                 </div>
                 <div class="col-12 col-md-2 col-xl-2 d-flex justify-content-center ">
-                    <p>2 routes de montaigu</p></div>
+                    <p>2 route de Montaigu</p></div>
                     <div class="col-12 col-md-2 col-xl-2 d-flex justify-content-center ">
                     <p>39000 Lons-le-Saunier</p>
                 </div>

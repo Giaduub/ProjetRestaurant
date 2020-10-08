@@ -164,6 +164,28 @@ a:hover {
 }
 
 /* Coffee */
+
+.uneu{
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 30px;
+}
+
+.deueu{
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 30px;
+}
+
+.soi{
+    font-size: 60px;
+}
+
+.ttt{
+    padding-right: 20px;
+}
+
+
 .coffee {
     color: rgb(119, 31, 47);
     text-align: center;
@@ -270,8 +292,8 @@ footer {
 
 /*Animation*/
 
-.NosBurgers {
-    animation-duration: 4s;
+.Anim {
+    animation-duration: 3s;
     animation-name: slidein;
 
 }
