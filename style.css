@@ -302,7 +302,16 @@ footer {
     border-radius: 100%;
     border: 5px;
     opacity: 100%;
+    width:40vw!important;
+    max-width:350px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
 
+}
+
+.cercle:before{
+    padding-top:100%; content:"";
 }
 /* MediaQueries*/
 
