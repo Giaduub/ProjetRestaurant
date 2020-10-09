@@ -165,25 +165,55 @@ a:hover {
 
 /* Coffee */
 
+.titreformule{
+    width: 70%;
+    float: left;
+    margin-left: 30px;
+}
+
+.titreformule2{
+    width: 70%;
+    float:right
+}
+
+.prixformule{
+    float:right;
+    margin-right: 10px;
+    font-size: 60px;
+}
+
+.prixformule2{
+    float: left;
+    font-size: 60px;
+}
+
 .uneu{
+    margin-top: 20px;
     color: white;
     font-family: "Bebas Neue";
     font-size: 30px;
+    position: absolute;
+    max-width: 300px;
+    margin-left: -50px;
+    top: 0;
+    left: 0;
+    text-align: center;
 }
 
 .deueu{
     color: white;
     font-family: "Bebas Neue";
     font-size: 30px;
+    position: absolute;
+    max-width: 300px;
+    margin-right: -25px;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.soi{
-    font-size: 60px;
-}
 
-.ttt{
-    padding-right: 20px;
-}
 
 
 .coffee {
@@ -330,6 +360,7 @@ footer {
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
+    display: block;
 
 }
 
@@ -339,20 +370,24 @@ footer {
     border: 2px solid #ffffff;
     border-radius: 100%;
     opacity: 100%;
-    width:38vw!important;
+    width:22vw!important;
     max-width:340px;
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
+    display: block;
 }
 
 .cercle2:before{
     padding-top:100%; content:"";
+    display: block;
 }
 
 .cercle:before{
     padding-top:100%; content:"";
+    display: block;
 }
+
 /* MediaQueries*/
 
 
@@ -389,6 +424,18 @@ footer {
         width: 100px;
     }
 
+    .uneu{
+        font-size: 10px;
+    }
+
+    .deueu{
+        font-size: 10px;
+    }
+
+    span{
+        font-size: 20px;
+    }
+
 }
 
 @media (max-width:986px) {
@@ -398,4 +445,8 @@ footer {
         align-items: center;
         justify-content: center;
         }
+}
+
+span{
+    font-size: 60px;
 }
