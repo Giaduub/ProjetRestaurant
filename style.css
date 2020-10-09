@@ -370,7 +370,7 @@ footer {
     border: 2px solid #ffffff;
     border-radius: 100%;
     opacity: 100%;
-    width:22vw!important;
+    width:35vw!important;
     max-width:340px;
     left:50%;
     top:50%;
@@ -447,6 +447,6 @@ footer {
         }
 }
 
-span{
-    font-size: 60px;
+.instagram{
+    margin-left: 15px;
 }
